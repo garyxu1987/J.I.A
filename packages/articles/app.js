@@ -18,13 +18,14 @@ Articles.register(function(app, auth, database) {
 
   //We are adding a link to the main menu for all authenticated users
   Articles.menus.add({
-    'roles': ['authenticated'],
-    'title': 'Articles',
+    'roles': ['anonymous','authenticated'],
+    'title': '我们的分享',
+    'index': 2,
     'link': 'all articles'
   });
   Articles.menus.add({
     'roles': ['authenticated'],
-    'title': 'Create New Article',
+    'title': '发表分享',
     'link': 'create article'
   });
 

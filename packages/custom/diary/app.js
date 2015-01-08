@@ -20,7 +20,7 @@ Diary.register(function(app, auth, database) {
   Diary.menus.add({
     title: '我们的日记',
     link: 'Diary',
-    roles: ['authenticated'],
+    roles: ['anonymous','authenticated'],
     index: 0,
     menu: 'main'
   });

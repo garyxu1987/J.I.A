@@ -20,7 +20,7 @@ Footmark.register(function(app, auth, database) {
   Footmark.menus.add({
     title: '我们的足迹',
     link: 'Footmark',
-    roles: ['authenticated'],
+    roles: ['anonymous','authenticated'],
     index: 1,
     menu: 'main'
   });

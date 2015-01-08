@@ -3,7 +3,7 @@
 angular.module('mean.diary').config(['$stateProvider',
   function($stateProvider) {
     $stateProvider.state('Diary', {
-      url: '/diary/example',
+      url: '/diary/',
       templateUrl: 'diary/views/index.html'
     });
   }
