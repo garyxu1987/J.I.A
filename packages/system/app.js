@@ -20,6 +20,10 @@ SystemPackage.register(function(app, auth, database) {
 
   SystemPackage.aggregateAsset('css', 'common.css');
 
+  SystemPackage.aggregateAsset('css', 'main.css');
+
+  SystemPackage.aggregateAsset('css', 'fixed-positioning.css');
+
   // The middleware in config/express will run before this code
 
   // Set views path, template engine and default layout
